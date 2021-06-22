@@ -1,0 +1,335 @@
+* { box-sizing: border-box; }
+
+body{
+	 font-family: Arial, Verdana, sans-serif;
+	 }
+
+header{
+	background-size: 100% 100%;
+	margin-top: 50px;
+	min-height: 200px;
+
+	}
+
+header h1 a[href]{
+	font-size: 2em;
+	color: black;
+	text-shadow: #ccc 3px 3px 2px;
+	letter-spacing: 1.5px;
+	}
+
+header a{text-decoration: none;}
+header a:link { color: #FFFFFF ;}
+header a:visited { color: #FFFFFF ;}
+header a:hover { color: #EDF5F5 ;}
+
+nav{
+  float: left;
+	width: 20%;
+	margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  display: block;
+	border: solid 5px grey;
+	border-radius: 50%;
+	width: 125px;
+	background-color: #696969
+	}
+
+nav a:link { color: black;}
+nav a:visited { color: #00CED1; }
+nav a:hover { color: #A26100;}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-size: 25px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+  }
+
+nav li{
+	color: black;
+	width: 60%;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline;
+	margin: 1px 0;
+	line-height: normal;
+	}
+
+	
+
+#wrapper{
+	width: 80%;
+  padding: 2em;
+	display: flex;
+	background-color: rgb(194, 188, 188, 0.8);
+  }
+
+h2{
+	display: flex;
+	justify-content: center;
+	}
+
+h3{
+display: flex;
+justify-content: center;}
+
+iframe{
+	border: none;
+display: block;
+margin: 0 auto;
+}
+
+
+footer{
+	display:grid;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+	background-color: grey;
+	width: 100%;
+	bottom: 0px;
+	position: fixed;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin: 0 auto;
+}
+
+table{
+	margin: auto;
+	border: 5px solid black;
+}
+
+table caption{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.bigimg{
+	height: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("vidgamebg.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgfighting{
+	height: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("fightingameimg.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgfps{
+	height: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("fps.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgrpg{
+	height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: url("rpg.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgsports{
+	height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: url("sportsbg.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgsim{
+	height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: url("simbg.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgracing{
+	height: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  background-image: url("racingbg.jpg");
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bigimgciv{
+	height: 100%;
+	background-image: url("civbg.jpg");
+	background-position: center;
+	background-size: cover;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: fixed;
+	top: 0;
+  right: 0;
+  left: 0;
+z-index: -1
+}
+
+.bigimgsurvival{
+	height: 100%;
+	background-image: url("survivalbg.jpg");
+	background-position: center;
+	background-size: cover;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: fixed;
+	top: 0;
+  right: 0;
+  left: 0;
+z-index: -1
+}
+
+.bgref{
+	height: 100%;
+background-color: grey;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: -1;
+}
+
+.bullet{
+	list-style-type: circle;
+}
+
+
+.flow{
+	display: flex;
+	flex-direction: row;
+		}
+
+.flow2{
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	}
+
+
+.content{
+  padding-top: 2em;
+  padding-left: 10%;
+	text-align: center;
+	font-family:  fantasy;
+    }
+
+
+
+
+@media (max-width: 600px){
+
+#wrapper{
+	width: 100%;
+	display: flex;
+}
+
+iframe{
+width: 100%
+}
+
+.flow{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+nav{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: grey;
+	margin: 0;
+	z-index: 9999;
+
+}
+
+nav ul{
+list-style-type: none;
+display: flex;
+margin: 0;
+font-size: 1em;
+flex-direction: row;
+}
+
+nav li{
+	width: 20%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 1em;
+	padding-right: 3em;
+	display: grid;
+	margin: 1px;
+		}
+
+		header{
+			margin-top: 50px;
+			font-size: 80%;
+		}
+
+		form{
+			width: 60%
+		}
+
+
+}
